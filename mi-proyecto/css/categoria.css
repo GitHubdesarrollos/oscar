@@ -1,0 +1,9 @@
+#bienveni2{
+	display: inline-block;
+	text-align: center;
+}
+
+#bienveni2 select{
+	padding: 10px;
+	width: 180px;
+}

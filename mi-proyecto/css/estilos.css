@@ -1,0 +1,120 @@
+@import url(menu.css);
+@import url(articulos.css);
+@import url(banner.css);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left:0;
+	z-index: 100;
+}
+
+.contenedor {
+	width: 98%;
+	margin: auto;
+}
+
+.contenedor h1 {
+	float: left;
+	font-size: 25px;
+	margin: 6px 0;
+}
+
+.contenedor h1 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+header .contenedor {
+	display: table;
+}
+
+header h1{
+	padding: 10px;
+}
+
+section{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+main{
+	margin-top: 50px;
+}
+
+#banner2{
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-bottom: 1px solid #A2A2A2;
+	background: #C8C8C8;
+	text-align: center;
+
+}
+
+#bienvenido
+{
+	text-align: center;
+	padding: 10px;
+}
+
+
+footer {
+		position: relative;
+    clear: both;             
+    padding-top: 0px;
+    overflow: visible;*/
+    position: fixed;
+    bottom: 0;     
+}
+
+
+footer .contenedor{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	padding-bottom: 25px;
+     
+}
+
+.copy{
+	font-size: 20px;
+}
+
+footer .copy a{
+	text-decoration: none;
+	color: #333;
+}
+
+.sociales {
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.sociales a{
+	color: #333;
+	text-decoration:none;
+}
+
+
+@media (min-width:1024px) {
+	.contenedor{
+		width: 85%;
+	}
+
+	.novedades{
+
+	}
+}
+

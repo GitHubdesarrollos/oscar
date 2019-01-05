@@ -1,0 +1,24 @@
+#articulos h3, h4 {
+	text-align: center;
+}
+
+#articulos .contenedor {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#articulos article {
+	margin: 15px;
+}
+
+#articulos img {
+	width: 100%;
+
+	max-width: 280px;
+}
+
+#articulos a{
+	text-decoration: none;
+	color: black;
+}

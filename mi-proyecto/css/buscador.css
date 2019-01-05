@@ -1,0 +1,41 @@
+form {
+	width: 400px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+fieldset {
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #333;
+	border-radius: 5px;
+	padding: 0 0 0 10px;
+}
+
+input, button{
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 30px;
+	padding: 0;
+}
+input{
+	color: #666;
+	border: none;
+	z-index: 2;
+}
+
+button{
+	font-size: 1.4em;
+	width: 50px;
+	border: none;
+	background: #D1CFCF;
+}
+
+.icon-search {
+	color: #bbb;
+}
+
+input:focus {
+	outline: none;
+}
